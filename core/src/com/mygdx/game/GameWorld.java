@@ -27,6 +27,7 @@ public class GameWorld extends ApplicationAdapter implements InputProcessor {
 	SpriteBatch sb;
 	Texture texture;
 	Sprite sprite;
+	float unitScale=1/16f;
 
 	@Override public void create () {
 		float w = Gdx.graphics.getWidth();
